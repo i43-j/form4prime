@@ -179,7 +179,7 @@ const AutomationQuiz = () => {
 
     try {
       // Replace this URL with your actual API endpoint
-      const response = await fetch('/api/quiz-results', {
+      const response = await fetch('https://i43-j.app.n8n.cloud/webhook-test/quiz', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
